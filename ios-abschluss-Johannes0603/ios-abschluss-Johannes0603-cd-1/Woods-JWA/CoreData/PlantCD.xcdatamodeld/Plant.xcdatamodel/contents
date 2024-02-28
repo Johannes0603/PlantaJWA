@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22522" systemVersion="23C71" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="PlantCD" representedClassName="PlantCD" syncable="YES" codeGenerationType="class">
+        <attribute name="additionalImages" optional="YES" attributeType="Binary"/>
+        <attribute name="age" optional="YES" attributeType="String"/>
+        <attribute name="common_name" optional="YES" attributeType="String"/>
+        <attribute name="details" optional="YES" attributeType="String"/>
+        <attribute name="height" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="idCD" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="image_url" optional="YES" attributeType="URI"/>
+        <attribute name="imgCD" optional="YES" attributeType="Binary"/>
+        <attribute name="imgCD2" optional="YES" attributeType="Binary"/>
+        <attribute name="imgCD3" optional="YES" attributeType="Binary"/>
+        <attribute name="isFavorite" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="scientific_name" optional="YES" attributeType="String"/>
+        <attribute name="specialSkill" optional="YES" attributeType="String"/>
+    </entity>
+</model>
